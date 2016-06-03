@@ -49,6 +49,23 @@ body {
   text-decoration: underline;
   color: #E4E4F7;
 }
+.btn,
+.btn-lg,
+.btn-primary {
+  background-color: #D59595;
+  border-style: solid;
+  margin: 0.5em;
+  font-family: sans-serif;
+  font-weight: bold;
+  color: black;
+}
+.btn:hover,
+.btn-lg:hover,
+.btn-primary:hover {
+  color: white;
+  background-color: #722;
+  font-size: 2em;
+}
 .hidden {
   display: none;
 }
