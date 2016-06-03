@@ -1,56 +1,56 @@
 var pointCrunch = function(totalPoints) {
-      var totalCrunched = " earth";
+      var totalCrunched = " planet earth";
       if ( totalPoints <= 13 ) {
       alert(totalCrunched);
       return totalCrunched;
     } else if ( totalPoints <= 25 ) {
-      totalCrunched = " mars";
+      totalCrunched = " planet mars";
       alert(totalCrunched);
       return totalCrunched;
     } else if ( totalPoints <= 34 ) {
-      totalCrunched = " saturn";
+      totalCrunched = " planet saturn";
       alert(totalCrunched);
       return totalCrunched;
     } else if ( totalPoints <= 42 ) {
-      totalCrunched = " jupiter";
+      totalCrunched = " planet jupiter";
       alert(totalCrunched);
       return totalCrunched;
     } else if ( totalPoints <= 49 ) {
-      totalCrunched = " venus";
+      totalCrunched = " planet venus";
       alert(totalCrunched);
       return totalCrunched;
     } else if ( totalPoints <= 57 ) {
-      totalCrunched = " mercury";
+      totalCrunched = " planet mercury";
       alert(totalCrunched);
       return totalCrunched;
     } else if ( totalPoints <= 66 ) {
-      totalCrunched = " neptune";
+      totalCrunched = " planet neptune";
       alert(totalCrunched);
       return totalCrunched;
     } else if ( totalPoints <= 78 ) {
-      totalCrunched = " uranus";
+      totalCrunched = " planet uranus";
       alert(totalCrunched);
       return totalCrunched;
     } else if ( totalPoints <= 91 ) {
-      totalCrunched = " pluto";
+      totalCrunched = " planet pluto";
       alert(totalCrunched);
       return totalCrunched;
     };
+};
+var classPlanet = function(totalCrunched) {
+  var targetItem = document.getElementsByClassName("result_target");
+  targetItem.className += totalCrunched;
+};
 
-    var classPlanet = function(totalCrunched) {
-      var targetItem = document.getElementById("resultBox");
-      targetItem.className += totalCrunched;
-    };
-
-    *  1-Earth
-    *  2-Mars
-    *  3-Saturn (Moons)
-    *  4-Jupiter (Moons)
-    *  5-Venus
-    *  6-Mercury
-    *  7-Neptune
-    *  8-Uranus
-    *  9-Pluto
+    // *  1-Earth
+    // *  2-Mars
+    // *  3-Saturn (Moons)
+    // *  4-Jupiter (Moons)
+    // *  5-Venus
+    // *  6-Mercury
+    // *  7-Neptune
+    // *  8-Uranus
+    // *  9-Pluto
 
 // 13:12:9:8:7:8:9:12:13:
 // Distribution = these values as range.
@@ -71,7 +71,7 @@ $(document).ready(function() {
     alert(pointCount);
     var result = pointCrunch(pointCount);
     alert(result);
-
+    classPlanet(result);
 
 
 
