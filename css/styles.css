@@ -33,7 +33,7 @@ body {
   color: white;
   font-variant: small-caps;
   font-family: monospace;
-  
+
 }
 .answer {
   font-size: 3em;
@@ -46,4 +46,32 @@ body {
 }
 .hidden {
   display: none;
+}
+/*Begin Planet Specific Class Group*/
+.venus {
+  background-color: #3CAB30;
+}
+.mars {
+  background-color: #9C4D25;
+}
+.earth {
+  background-color: #25789C;
+}
+.pluto {
+  background-color: #3F4345;
+}
+.uranus {
+  background-color: #15C1E8;
+}
+.neptune {
+  background-color: #15E8B3;
+}
+.mercury {
+  background-color: #E8BD3A;
+}
+.saturn {
+  background-color: #F7660C;
+}
+.jupiter {
+  background-color: #D6583C;
 }
