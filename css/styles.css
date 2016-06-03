@@ -1,6 +1,5 @@
 body {
   background-color: #002;
-  background-image: url("img/stars_sml.jpeg");
 }
 .container {
   background-color: #316;
@@ -12,8 +11,9 @@ body {
   color: #D4D4FC;
 }
 .link_to_quiz:hover {
-  background-image: url("img/stars_sml.jpeg");
   font-size: 2em;
+  color: #F1F1FC;
+  text-decoration: none;
 }
 .question_text,
 .question_whole {
@@ -23,11 +23,27 @@ body {
   border-color: lightgrey;
   margin: 0.5em;
 }
-
 .question_whole {
   padding: 0.5em;
   border-color: grey;
   margin: 0.25em;
+  background-color: #214;
+}
+.planet {
+  color: white;
+  font-variant: small-caps;
+  font-family: monospace;
   
-
+}
+.answer {
+  font-size: 3em;
+  font-weight: bold;
+  color: white;
+}
+#theAnswer {
+  text-decoration: underline;
+  color: #E4E4F7;
+}
+.hidden {
+  display: none;
 }
