@@ -1,0 +1,17 @@
+body {
+  background-color: #002;
+  background-image: url("img/stars_sml.jpeg");
+}
+.container {
+  background-color: #316;
+}
+.intro {
+  /*font-variant: small-caps;*/
+  font-family: sans-serif;
+  font-size: 3em;
+  color: #D4D4FC;
+}
+.link_to_quiz:hover {
+  background-image: url("img/stars_sml.jpeg");
+  font-size: 4em;
+}
