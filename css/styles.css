@@ -5,7 +5,6 @@ body {
   background-color: #316;
 }
 .intro {
-  /*font-variant: small-caps;*/
   font-family: sans-serif;
   font-size: 3em;
   color: #D4D4FC;
@@ -20,14 +19,19 @@ body {
   padding: 1em;
   color: #F1F1F9;
   border-style: solid;
-  border-color: lightgrey;
+  border-color: darkgrey;
   margin: 0.5em;
+  border-radius: 8%;
 }
 .question_whole {
   padding: 0.5em;
   border-color: grey;
   margin: 0.25em;
   background-color: #214;
+}
+.question_text {
+    background-color: #113;
+    border-color: #123;
 }
 .planet {
   color: white;

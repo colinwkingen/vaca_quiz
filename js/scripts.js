@@ -1,37 +1,37 @@
 var pointCrunch = function(totalPoints) {
       var totalCrunched = " planet earth";
-      if ( totalPoints <= 13 ) {
+      if ( totalPoints <= 21 ) {
       $('.earth').toggleClass('hidden');
       return totalCrunched;
-    } else if ( totalPoints <= 25 ) {
+    } else if ( totalPoints <= 33 ) {
       totalCrunched = " planet mars";
       $('.mars').toggleClass('hidden');
       return totalCrunched;
-    } else if ( totalPoints <= 34 ) {
+    } else if ( totalPoints <= 42 ) {
       totalCrunched = " planet saturn";
       $('.saturn').toggleClass('hidden');
       return totalCrunched;
-    } else if ( totalPoints <= 42 ) {
+    } else if ( totalPoints <= 48 ) {
       totalCrunched = " planet jupiter";
       $('.jupiter').toggleClass('hidden');
       return totalCrunched;
-    } else if ( totalPoints <= 49 ) {
+    } else if ( totalPoints <= 52 ) {
       totalCrunched = " planet venus";
       $('.venus').toggleClass('hidden');
       return totalCrunched;
-    } else if ( totalPoints <= 57 ) {
+    } else if ( totalPoints <= 58 ) {
       totalCrunched = " planet mercury";
       $('.mercury').toggleClass('hidden');
       return totalCrunched;
-    } else if ( totalPoints <= 66 ) {
+    } else if ( totalPoints <= 67 ) {
       totalCrunched = " planet neptune";
       $('.neptune').toggleClass('hidden');
       return totalCrunched;
-    } else if ( totalPoints <= 78 ) {
+    } else if ( totalPoints <= 79 ) {
       totalCrunched = " planet uranus";
       $('.uranus').toggleClass('hidden');
       return totalCrunched;
-    } else if ( totalPoints <= 91 ) {
+    } else if ( totalPoints <= 92 ) {
       totalCrunched = " planet pluto";
       $('.pluto').toggleClass('hidden');
       return totalCrunched;
