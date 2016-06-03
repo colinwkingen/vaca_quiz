@@ -11,7 +11,7 @@ body {
   color: #D4D4FC;
 }
 .link_to_quiz:hover {
-  font-size: 2em;
+  font-size: 1.5em;
   color: #F1F1FC;
   text-decoration: none;
 }
@@ -33,12 +33,17 @@ body {
   color: white;
   font-variant: small-caps;
   font-family: monospace;
-
 }
 .answer {
   font-size: 3em;
   font-weight: bold;
   color: white;
+}
+.answer a:hover {
+  font-size: 0.5em;
+}
+.planet_blurb {
+  font-size: 2.5em;
 }
 #theAnswer {
   text-decoration: underline;

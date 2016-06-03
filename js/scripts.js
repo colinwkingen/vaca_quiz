@@ -1,39 +1,39 @@
 var pointCrunch = function(totalPoints) {
       var totalCrunched = " planet earth";
       if ( totalPoints <= 13 ) {
-      alert(totalCrunched);
+      $('.earth').toggleClass('hidden');
       return totalCrunched;
     } else if ( totalPoints <= 25 ) {
       totalCrunched = " planet mars";
-      alert(totalCrunched);
+      $('.mars').toggleClass('hidden');
       return totalCrunched;
     } else if ( totalPoints <= 34 ) {
       totalCrunched = " planet saturn";
-      alert(totalCrunched);
+      $('.saturn').toggleClass('hidden');
       return totalCrunched;
     } else if ( totalPoints <= 42 ) {
       totalCrunched = " planet jupiter";
-      alert(totalCrunched);
+      $('.jupiter').toggleClass('hidden');
       return totalCrunched;
     } else if ( totalPoints <= 49 ) {
       totalCrunched = " planet venus";
-      alert(totalCrunched);
+      $('.venus').toggleClass('hidden');
       return totalCrunched;
     } else if ( totalPoints <= 57 ) {
       totalCrunched = " planet mercury";
-      alert(totalCrunched);
+      $('.mercury').toggleClass('hidden');
       return totalCrunched;
     } else if ( totalPoints <= 66 ) {
       totalCrunched = " planet neptune";
-      alert(totalCrunched);
+      $('.neptune').toggleClass('hidden');
       return totalCrunched;
     } else if ( totalPoints <= 78 ) {
       totalCrunched = " planet uranus";
-      alert(totalCrunched);
+      $('.uranus').toggleClass('hidden');
       return totalCrunched;
     } else if ( totalPoints <= 91 ) {
       totalCrunched = " planet pluto";
-      alert(totalCrunched);
+      $('.pluto').toggleClass('hidden');
       return totalCrunched;
     };
 };
