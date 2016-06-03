@@ -24,5 +24,5 @@
 *  8-Uranus
 *  9-Pluto
 
-The total number of points is divided by nine, and nine equal ranges within
-the total possible point to reach a final answer. 
+The total number of points are divided by nine, and nine equal ranges within
+the total possible point to reach a final answer.

@@ -13,5 +13,21 @@ body {
 }
 .link_to_quiz:hover {
   background-image: url("img/stars_sml.jpeg");
-  font-size: 4em;
+  font-size: 2em;
+}
+.question_text,
+.question_whole {
+  padding: 1em;
+  color: #F1F1F9;
+  border-style: solid;
+  border-color: lightgrey;
+  margin: 0.5em;
+}
+
+.question_whole {
+  padding: 0.5em;
+  border-color: grey;
+  margin: 0.25em;
+  
+
 }
